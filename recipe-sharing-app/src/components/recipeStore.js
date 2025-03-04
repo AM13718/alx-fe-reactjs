@@ -2,6 +2,7 @@ import { create } from 'zustand';
 
 const useRecipeStore = create((set) => ({
   recipes: [],
+  setRecipes: (recipes) => set({ recipes }),
   favorites: [],
 
   addRecipe: (newRecipe) =>
@@ -44,6 +45,5 @@ const useRecipeStore = create((set) => ({
 }));
 
 export default useRecipeStore;
-;
 
 
