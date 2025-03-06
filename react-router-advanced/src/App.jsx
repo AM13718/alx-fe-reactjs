@@ -6,6 +6,7 @@ import Profile from "./components/Profile";
 import ProfileDetails from "./components/ProfileDetails";
 import ProfileSettings from "./components/ProfileSettings";
 import Post from "./components/Post";
+import BlogPost from "./components/BlogPost"; // Import BlogPost component
 import ProtectedRoute from "./components/ProtectedRoute";
 
 function App() {
@@ -25,6 +26,8 @@ function App() {
         </Route>
         {/* Dynamic Route for Posts */}
         <Route path="/posts/:postId" element={<Post />} />
+        {/* Dynamic Route for Blog Posts */}
+        <Route path="/blog/:id" element={<BlogPost />} />
         {/* Fallback for undefined routes */}
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
@@ -33,4 +36,5 @@ function App() {
 }
 
 export default App;
+
 
