@@ -3,17 +3,17 @@ import React, { useState } from 'react';
 const AddRecipeForm = () => {
   const [title, setTitle] = useState('');
   const [ingredients, setIngredients] = useState('');
-  const [instructions, setInstructions] = useState('');
+  const [steps, setSteps] = useState('');
   const [error, setError] = useState('');
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (!title || !ingredients || !instructions) {
+    if (!title || !ingredients || !steps) {
       setError('All fields are required.');
       return;
     }
     setError('');
-    console.log({ title, ingredients, instructions });
+    console.log({ title, ingredients, steps });
     alert('Recipe submitted successfully!');
   };
 
@@ -40,11 +40,11 @@ const AddRecipeForm = () => {
           />
         </div>
         <div className="mb-4">
-          <label className="block text-gray-700">Instructions</label>
+          <label className="block text-gray-700">Preparation Steps</label>
           <textarea
             className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-            value={instructions}
-            onChange={(e) => setInstructions(e.target.value)}
+            value={steps}
+            onChange={(e) => setSteps(e.target.value)}
           />
         </div>
         <button type="submit" className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">
