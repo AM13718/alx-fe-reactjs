@@ -1,0 +1,33 @@
+
+[
+    {
+      "id": 1,
+      "title": "Spaghetti Carbonara",
+      "summary": "A classic Italian pasta dish with eggs, cheese, bacon, and black pepper.",
+      "image": "https://via.placeholder.com/150",
+      "ingredients": ["200g spaghetti", "2 eggs", "100g pancetta", "50g parmesan cheese", "Salt and pepper to taste"],
+      "instructions": "Boil pasta, cook pancetta, mix eggs and cheese, combine and serve."
+    },
+    {
+      "id": 2,
+      "title": "Chicken Tikka Masala",
+      "summary": "Chunks of grilled chicken (tikka) cooked in a smooth buttery & creamy tomato-based gravy.",
+      "image": "https://via.placeholder.com/150",
+      "ingredients": ["500g chicken", "1 cup yogurt", "2 tbsp garam masala", "1 can tomato puree", "1/2 cup cream"],
+      "instructions": "Marinate chicken, grill it, prepare sauce, mix and serve."
+    },
+  {
+    "id":3,
+    "title":"beef pilau masala",
+    "summary":"Pilau Masala is a favorite Kenyan meal and a common delicacy whose roots are deeply embedded in the culture of the Swahili communities.",
+    "image":"https://cdn.prod.website-files.com/5ce73b72e17baccf9df1cf52/5ceec401cc10fe591741ad7d_Pilau-Beef-stew-fry-1024x7681-565x358.jpeg",
+    "ingredients":"3 cups basmati or jasmine rice1.5 pound lean beef (like top sirloin), cubed (or omit meat)2 medium onions, chopped (red onions are best)3 medium tomatoes, diced2 teaspoons grated fresh ginger2 - 6 cloves of garlic, chopped2 Tablespoons cooking oil1 teaspoon salt6 cups water",
+    "instructions": ["Combine the spice ingredients and set aside. Combine the garlic and ginger and set aside. Wash the rice, drain, and soak for an hour.",
+
+                   "Heat oil in a Dutch oven or deep covered skillet. Add onions and sauté until glazed, stirring occasionally. Stir in the garlic and ginger and sauté for a minute. Stir in the seasoning blend and sauté for another couple of minutes.",
+
+                   "Add the beef, cooking on high heat until browned. Reduce the heat and simmer for 5 minutes. Drain and add the rice to the meat, stirring thoroughly to coat each grain of rice with the oil. Stir in the tomatoes and simmer for a minute. Add 6 cups of water. Stir, cover and bring to the boil.",
+
+                  "Reduce to medium-low heat and simmer until all liquid has been absorbed, stirring occasionally to prevent it from sticking to the bottom of the pot. Remove from heat and serve salad or seasonal vegetables"]
+  }
+]
